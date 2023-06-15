@@ -196,12 +196,12 @@
 // What are the things in an array called?
 // Do Arrays guarantee those things will be in order?
 // What real-life thing could you model with an array?
-
+      //An array is a type of variable that holds multiple values. These values are called index numbers. Arrays are always ordered starting from index 0. You could model all the names of the Cycle 21 PerScholas SE students in an array. i.e. const perScholasSoftwareEngineeringStudents = ['kolten','sterling',...]
 
 
 // ### B. Easy Does It
 // Create an array that contains three quotes and store it in a variable called quotes
-
+      const quotes = ['hello', 'goodbye', 'perhaps'];
 
 
 // ### C. Accessing elements
