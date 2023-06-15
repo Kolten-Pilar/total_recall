@@ -30,6 +30,10 @@
 
 // What is the value of firstVariable?
    let firstVariable = 'Hello World';
+   firstVariable = 25;
+   let secondVariable = firstVariable;
+   secondVariable = 'any string';
+   console.log(firstVariable); //output = 25
 
 // - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName. 
 
