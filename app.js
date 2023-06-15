@@ -273,11 +273,18 @@
 // ### F. Biggie Smalls
 
 // Create a variable that contains an integer.
+   const thisInteger = 28;
 
 // Write an `if ... else` statement that:
 
 // - `console.log()s` "little number" if the number is entered is less than 100
 // - `console.log()s` "big number" if the number is greater than or equal to 100.
+
+   if (thisInteger < 99) {
+      console.log(`${thisInteger} is a little number`);
+   } else {
+      console.log(`${thisInteger} is a big number`);
+   }
 
 
 
@@ -288,6 +295,16 @@
 // 1. console.log()little numberif the number entered is less than 5.
 // 2. If the number entered is more than 10, log big number.
 // 3. Otherwise, log "monkey".
+
+   const monkeyNumber = 8;
+
+   if (monkeyNumber < 5) {
+      console.log(`${monkeyNumber} is a little number`);
+   } else if (monkeyNumber > 10) {
+      console.log(`${monkeyNumber} is a big number`);
+   } else {
+      console.log('monkey');
+   }
 
 
 
