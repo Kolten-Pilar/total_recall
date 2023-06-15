@@ -1,16 +1,14 @@
 // ## Q + A
 // 1. How do we assign a value to a variable?
-   // We assign a value to a variable (const, let, or var being the initializing words then the variable name) with the '=' sign. i.e. let firstName = kolten
+   // We assign a value to a variable (const, let, or var being the initializing/declaring words then the variable name) with the '=' sign. i.e. let firstName = kolten
 
 // 2. How do we change the value of a variable?
    // call the variable and use the '=' sign then enter the new info. i.e. firstName = elliott.
 // 3. How do we assign an existing variable to a new variable?
    // create new variable and use '=' sign to assign it to a new variable name
 // 4. Remind me, what are declare, assign, and define?
+   // Declaring is using 'let','const', or 'var' to initialize a variable. To assign you would use the '=' symbol. i.e. let firstName = kolten;
 
-// Declare is to let js know that there is a variable `let a;`
-// To assign a value to the variable. I need to use `=`.
-// For example: `let a = 0`
 
 // ### Research 
 
