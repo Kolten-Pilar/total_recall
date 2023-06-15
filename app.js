@@ -312,54 +312,49 @@
 // Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript.
 
 // ```
-// const kristynsCloset = [
-//   "left shoe",
-//   "cowboy boots",
-//   "right sock",
-//   "GA hoodie",
-//   "green pants",
-//   "yellow knit hat",
-//   "marshmallow peeps"
-// ];
-// ```
-// ```
-// {
-//   "firstName": "John",
-//   "lastName": "Smith",
-//   "age": 25
-// }
-// ```
-
+   const kristynsCloset = [
+   "left shoe",
+   "cowboy boots",
+   "right sock",
+   "GA hoodie",
+   "green pants",
+   "yellow knit hat",
+   "marshmallow peeps"
+   ];
 // `// Thom's closet is more complicated. Check out this nested data structure!!`
-// ```
-// const thomsCloset = [
-//   [
-//     // These are Thom's shirts
-//     "grey button-up",
-//     "dark grey button-up",
-//     "light blue button-up",
-//     "blue button-up",
-//   ],[
-//     // These are Thom's pants
-//     "grey jeans",
-//     "jeans",
-//     "PJs"
-//   ],[
-//     // Thom's accessories
-//     "wool mittens",
-//     "wool scarf",
-//     "raybans"
-//   ]
-// ];
+   const thomsCloset = [
+   [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+   ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+   ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+   ]
+   ];
 // ```
 
 // **What's Kristyn wearing today?**
 
 // 1. Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" to the console.
-
+   console.log('Kristyn is rocking that ' + kristynsCloset[2] + ' today!');
+   console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!`); //this way looks cleaner 
 
 // 2. Kristyn just bought some sweet shades! Add "raybans"to her closet after "yellow knit hat".
 // Kristyn spilled coffee on her hat... modify this item to read "stained knit hat"instead of yellow.
+
+   kristynsCloset.splice(6, 0, 'raybans')
+   kristynsCloset.splice(5, 1, 'stained knit hat')
+   console.log(kristynsCloset);
 
 // 3. Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
 
