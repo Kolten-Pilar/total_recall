@@ -210,10 +210,18 @@
 
 // - How do you access the 1st element in the array?
 
+   const randomThings = [1, 10, "Hello", true]
+
+   console.log(randomThings[0]);
+
 // - Change the value of `"Hello"` to `"World"`
+       
+   randomThings.splice(2, 1,'world');
+   
+
 
 // - Check the value of the array to make sure it updated the array using `console.log()`
-
+   console.log(randomThings);
 
 // ### D. Change values
 // Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
