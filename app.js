@@ -505,9 +505,6 @@ maxOfThree(1,6,9);
 
 // Did you use Google and find Math.max()? If so, great job! Very resourceful—keep looking stuff up! However, for this particular question, we need you to submit a solution that does not use Math.max().
 
-
-
-
 // ### H. printLongestWord
 // Write a function printLongestWordthat accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
 
