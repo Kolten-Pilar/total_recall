@@ -473,7 +473,15 @@ isVowel('A');
 
 // `console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));`
 // `=> [5, 4, 2, 2, 4]`
-
+function getMultipleLengths(newArr) {
+   let answer = [];
+   for (let i = 0; i < newArr.length; i++) {
+      answer.push(newArr[i].length);
+   }
+   console.log(answer);
+}
+let myArr = ["hello", "what", "is", "up", "dude"];
+getMultipleLengths(myArr);
 
 
 
@@ -482,6 +490,18 @@ isVowel('A');
 
 // console.log(maxOfThree(6, 9, 1));
 // => 9
+
+function maxOfThree(num1,num2,num3) {
+   if (num1 > num2 && num1 > num3) {
+      console.log(`${num1}, the first number is biggest`);
+   } else if (num2 > num1 && num2 > num3) {
+      console.log(`${num2}, the second number is biggest`);
+   } else {
+      console.log(`${num3}, the third number is biggest`);
+   }
+}
+
+maxOfThree(9,6,1);
 
 // Did you use Google and find Math.max()? If so, great job! Very resourceful—keep looking stuff up! However, for this particular question, we need you to submit a solution that does not use Math.max().
 
