@@ -1,26 +1,22 @@
-## Q + A
-1. How do we assign a value to a variable?
-2. How do we change the value of a variable?
-3. How do we assign an existing variable to a new variable?
-4. Remind me, what are declare, assign, and define?
+// ## Q + A
+// 1. How do we assign a value to a variable?
+   // We assign a value to a variable (const, let, or var being the initializing/declaring words then the variable name) with the '=' sign. i.e. let firstName = kolten
 
-Declare is to let js know that there is a variable `let a;`
-To assign a value to the variable. I need to use `=`.
-For example: `let a = 0`
+// 2. How do we change the value of a variable?
+   // call the variable and use the '=' sign then enter the new info. i.e. firstName = elliott.
+// 3. How do we assign an existing variable to a new variable?
+   // create new variable and use '=' sign to assign it to a new variable name
+// 4. Remind me, what are declare, assign, and define?
+   // Declaring is using 'let','const', or 'var' to initialize a variable. To assign you would use the '=' symbol. i.e. let firstName = kolten;
 
-### Research 
 
-5. What is pseudocoding and why should you do it?
+// ### Research 
 
-Pseudocoding is writing code in plain spoken language that humans can understand.
+// 5. What is pseudocoding and why should you do it?
+   //Pseudocoding is the practice of writing code in normal spoken language. This allows us to write the general outline of the code and the steps you need to take to write code without worrying about syntax, after which you can translate it into actual code.
 
-It's important because it allows you to write the logic and steps of the you want to accomplish in code without worrying about the rigid syntax.
-
-Psuedocode allows us to break down problems into solvable peices that can be transfered to code. 
-
-Psudocode is the bridge between our minds and the code. 
-
-6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+// 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+   // I think that around 50-60% of your time should be spent thinking about how you will solve a problem and planning and the rest of the time can be spent typing in the code with proper syntax.
 
 ## Strings
 
