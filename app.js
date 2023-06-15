@@ -246,12 +246,27 @@
 
 // Given the following array: `const myArray = [5, 10, 500, 20]`
 
+   const myArray = [5, 10, 500, 20];
+
 // - Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
-// - Remove the 5from the beginning of the array.
+
+   myArray.push('Aegon');
+   myArray.push('your choice');
+   console.log(myArray);
+// - Remove the 5 from the beginning of the array.
+   myArray.shift();
+   console.log(myArray);
 // - Add the string "Bob Marley"to the beginning of the array.
+   myArray.unshift('Bob Marley');
+   console.log(myArray);
 // - Remove the string of your choice from the end of the array.
+   myArray.pop();
+   console.log(myArray);
 // - Reverse this array using `Array.prototype.reverse()`. 
+   myArray.reverse();
+   console.log(myArray);
 // - Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+   // Yes, all of the methods used above are mutators of arrays. The .reverse() method takes the array and reverses the order of the index elements.
 
 
 
