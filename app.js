@@ -387,6 +387,11 @@
 // ``console.log(printGreeting("Slimer")); `
 // `=> Hello there, Slimer!``
 
+   function printGreetingwith(name) {
+      console.log(`Hello there, ${name}!`);
+   }
+   printGreetingwith('Kolten');
+
 // You think you could? I think so too. Feel free to skip this problem, because you've already done it. If you've done the problem twice, read entire problems carefully before doing them from now on.
 
 
@@ -394,15 +399,26 @@
 
 // Write a function `printCoolthat` accepts one parameter, `name`, as an argument. The function should print the name and a message saying that that person is cool.
 
+   function printCoolthat(name) {
+      console.log(`${name} is cool.`);
+   } 
+   printCoolthat('Kolten');
+
 // `console.log(printCool("Captain Reynolds"));`
 // `=> "Captain Reynolds is cool";`
 
 
 
 
+
+
 // ### C. calculateCube
 // Write a function calculateCubethat takes a single number and prints the volume of a cube made from that number.
-
+   function calculateCube(num) {
+      let volume = (num * num * num) 
+         console.log(volume);
+   }
+   calculateCube(5);
 // `console.log(calculateCube(5));`
 // `=> 125`
 
@@ -411,21 +427,39 @@
 
 // ## D. isVowel
 
-// 1. Write a function `isVoweltha`t takes a character (i.e. a string of length 1) and returns `true` if it is a vowel, `false` otherwise. 
+// 1. Write a function `isVowel` that takes a character (i.e. a string of length 1) and returns `true` if it is a vowel, `false` otherwise. 
 
+   
 // 2. The vowel could be upper or lower case. 
 
 // Test your function on every vowel and make sure it's working. In general, when you write functions, take a minute to test them with different values to make sure they behave the way you want.
 
 // `console.log(isVowel("a"));`
 // `=> true`
-
+function isVowel(string) {
+      let newString = string.toLowerCase();
+      if (newString === 'a' ||
+      newString === 'e' ||
+      newString === 'i' ||
+      newString === 'o' ||
+      newString === 'u') {
+         console.log('true');
+      } else {
+         console.log('false');
+      }
+   }
+isVowel('A');
 
 
 
 // ### E. getTwoLengths
 
 // Write a function `getTwoLengthsthat` accepts two parameters (strings). The function should return an array of numbers where each number is the length of the corresponding string.
+
+   function getTwoLengths (string1, string2) {
+      console.log([string1.length, string2.length]);
+   };
+   getTwoLengths('hank', 'hippopopalous');
 
 // `console.log(getTwoLengths("Hank", "Hippopopalous"));`
 // `=> [4, 13]`
