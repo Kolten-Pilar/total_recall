@@ -139,6 +139,8 @@
       }
 
 // Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three
+      
+
 
 // **Example Output:**
 
@@ -151,17 +153,38 @@
 
 // For numbers divisible by both three and five, be sure your code prints both messages
 
-
+      for(let i = 0; i <= 100; i++) {
+         if (i % 5 === 0) {
+            console.log(`${i}: I found a number. High five!`);
+         } else if (i % 3 === 0) {
+            console.log(`${i}: I found a number. Three is a crowd.`);
+         }
+      }
 
 // ### D. Savings account
 
 // - Write code that will save the sum of all the numbers between 1 - 10 to a variable called `bank_account`.
 // - Check your work! Your `bank_account` should have $55 in it.
 
+      // let bank_account = 0;
+
+      // for(let i = 1; i <= 10; i++) {
+      //    bank_account += i;
+      // } 
+
+      // console.log(`$${bank_account}`);
+
 // You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
 
 // Check your work! Your `bank_account` should have $10,100 in it.
 
+      let bank_account = 0;
+
+      for(let i = 1; i <= 100; i++) {
+         bank_account += i * 2;
+      }
+
+      console.log(`$${bank_account}`);
 
 
 
