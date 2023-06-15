@@ -501,7 +501,7 @@ function maxOfThree(num1,num2,num3) {
    }
 }
 
-maxOfThree(9,6,1);
+maxOfThree(1,6,9);
 
 // Did you use Google and find Math.max()? If so, great job! Very resourceful—keep looking stuff up! However, for this particular question, we need you to submit a solution that does not use Math.max().
 
@@ -514,7 +514,18 @@ maxOfThree(9,6,1);
 // console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 // => "Peanutbutter"
 
+function printLongestWordthat(words) {
+   let longestWord = words[0];
 
+   for (let i = 0; i < words.length; i++) {
+     if (words[i].length > longestWord.length){
+      longestWord = words[i];
+     }
+   }
+   console.log(longestWord);
+}
+
+printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]);
 
 
 // ## Objects
