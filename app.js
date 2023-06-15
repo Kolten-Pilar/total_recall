@@ -132,7 +132,11 @@
 
 // I found a 5. High five!
 // I found a 10. High five!
-
+      for(let i = 0; i <= 100; i++) {
+         if (i % 5 === 0) {
+            console.log(`${i}: I found a number. High five!`);
+         } 
+      }
 
 // Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three
 
