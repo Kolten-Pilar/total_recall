@@ -29,6 +29,7 @@
 // - Change the value of secondVariableto any string.
 
 // What is the value of firstVariable?
+   let firstVariable = 'Hello World';
 
 // - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName. 
 
@@ -544,111 +545,4 @@
 // The above console.log is two levels deep of combineCats.
 
 // - Write a console.log that is **three** levels deep of combineCats. combineCats should have two arguments, each which are combineCats, each which have two arguments, each which are combineCats.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // --------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // STRINGS
-
-// // firstVariable = "hello world";
-// // firstVariable = 1;
-// // let secondVariable = firstVariable;
-// // secondVariable = "any string";
-
-// // console.log(firstVariable); //1
-
-// // const yourName = "Ariel";
-// // let hello = `Hello, my name is ${yourName}`
-// // console.log(hello);
-
-// //BOOLEANS
-
-// // const a = 4; 
-// // const b = 53; 
-// // const c = 57; 
-// // const d = 16; 
-// // const e = 'Kevin';
-
-// // console.log(a < b); 
-// // console.log(c > d); 
-// // console.log('Name' == 'Name');
-
-// //FOR THE NEXT TWO, USE ONLY && OR ||
-// // console.log(true || false); 
-// // console.log(false && false && false && false && false || true); 
-// // console.log(false === false) 
-// // console.log(e == 'Kevin'); 
-// // console.log(a != b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations) 
-// // console.log(a == a || d); // note: the answer is a simple arithmetic equation, not something "weird" console.log(48 __ '48');
-
-
-// //the Farm
-// let animal = "cow";
-
-// const moo = (a) => {
-//    return a.toLowerCase === "cow"? "mooooo" : "hey, that's not a cow"
-// } 
-
-// console.log(moo(animal));
-// //Driver's Ed
-
-// //LOOPS
-
-// //The Basics
-
-// //Get Even
-
-// //Give Me 5
-
-// //Savings Account
-
-// //ARRAYS & CONTROL FLOW
-
-// //OBJECTS
-
-
-// // let longest = array.reduce( (firstEl, secondEl) => {
-// //         //if the first el is greater than the second el return firstEl
-// //         return firstEl.length > secondEl.length ? firstEl : secondEl;
-// //     }
-// // );
-
-// // console.log(longest)
-
 
