@@ -13,16 +13,10 @@
 // ### Research 
 
 // 5. What is pseudocoding and why should you do it?
-
-// Pseudocoding is writing code in plain spoken language that humans can understand.
-
-// It's important because it allows you to write the logic and steps of the you want to accomplish in code without worrying about the rigid syntax.
-
-// Psuedocode allows us to break down problems into solvable peices that can be transfered to code. 
-
-// Psudocode is the bridge between our minds and the code. 
+   //Pseudocoding is the practice of writing code in normal spoken language. This allows us to write the general outline of the code and the steps you need to take to write code without worrying about syntax, after which you can translate it into actual code.
 
 // 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+   // I think that around 50-60% of your time should be spent thinking about how you will solve a problem and planning and the rest of the time can be spent typing in the code with proper syntax.
 
 // ## Strings
 
