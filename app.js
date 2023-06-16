@@ -583,7 +583,7 @@ printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter",
 // Console.log just the "Merino jodhpurs" from the `purchasedarray`.
 
    user.purchased.push('Merino jodhpurs')
-   console.log(user.purchased[2]);
+   // console.log(user.purchased[2]);
 
 // ### E. Object-within-object
 
@@ -601,13 +601,28 @@ printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter",
 // When we console.log user, we would see the friend object added to our user object.
 
 // 1. Write a friendobject into your userobject and give the friend a name, age, location, and purchased array (empty for now)
-// 2. Console.log just the friend's name
-// 3. Console.log just the friend's location
-// 4. CHANGE the friend's age to 55
-// The friend has purchased "The One Ring". Use `.push()` to add "The One Ring" to the friend's `purchasedarray`.
-// 5. The friendhas purchased "A latte". Use .push()to add "A latte" to the friend's `purchasedarray`.
-// 6. Console.log just "A latte" from the friend's `purchasedarray`.
 
+   user.friend = {
+      name: 'kyle',
+      age: '25',
+      location: 'SC',
+      purchased: []
+   }
+
+// 2. Console.log just the friend's name
+   console.log(user.friend.name);
+// 3. Console.log just the friend's location
+   console.log(user.friend.location);
+// 4. CHANGE the friend's age to 55
+   user.friend.age = 55;
+   console.log(user.friend);
+// The friend has purchased "The One Ring". Use `.push()` to add "The One Ring" to the friend's `purchasedarray`.
+   user.friend.purchased.push('The One Ring');
+// 5. The friendhas purchased "A latte". Use .push()to add "A latte" to the friend's `purchasedarray`.
+   user.friend.purchased.push('A latte');
+   console.log(user.friend);
+// 6. Console.log just "A latte" from the friend's `purchasedarray`.
+   console.log(user.friend.purchased[1]);
 
 
 // ### F. Loops
