@@ -656,9 +656,16 @@ printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter",
    updateUser(user);
    console.log(user);
   
-// Write a function oldAndLoudthat performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our userobject, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoudfunction with useras the argument.
+// Write a function oldAndLoud that performs the exact same tasks as updateUser, but instead of hard-coding it to only work on our userobject, make it take a parameter person, and have it modify the object that is passed in as an argument when the function is called. Call your oldAndLoudfunction with useras the argument.
+  
+   function oldAndLoud (person) {
+      person.age++;
+      person.name = person.name.toUpperCase();
+   }
 
-
+   console.log(user);
+   oldAndLoud(user);
+   console.log(user);
 
 
 
