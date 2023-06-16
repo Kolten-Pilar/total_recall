@@ -538,14 +538,26 @@ printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter",
 
 // Write in to the object the **key-value** pairs for name, email, age, and purchased. Set the value of purchased to an empty array `[]`. Set the other values to whatever you would like.
 
-
+   const user = {
+      name: 'kolten',
+      email: 'kolten.pilar@gmail.com',
+      age: 28,
+      purchased: []
+   }
+   console.log(user);
 
 // ### B. Update the user
 
 // - Our user has changed his or her email address. Without changing the original user object, update the email value to a new email address.
 
+   user.email = 'k.p@email.com'
+   console.log(user);
+
+
 // - Our user has had a birthday! Without changing the original user object, increment the agevalue using the postfix operator. Hint: age++
 
+   user.age++;
+   console.log(user);
 
 
 // ### C. Adding keys and values
@@ -554,7 +566,8 @@ printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter",
 
 // - Without changing the original user object, add a new key locationto the object, and give it a value or some-or-other location (a string).
 
-
+   user.location = 'NC';
+   console.log(user);
 
 // ### D. Shopaholic!
 
