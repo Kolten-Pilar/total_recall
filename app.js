@@ -583,6 +583,7 @@ printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter",
 // Console.log just the "Merino jodhpurs" from the `purchasedarray`.
 
    user.purchased.push('Merino jodhpurs')
+   
    // console.log(user.purchased[2]);
 
 // ### E. Object-within-object
@@ -628,9 +629,16 @@ printLongestWordthat(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter",
 // ### F. Loops
 
 // - Write a for loop that iterates over the User's `purchasedarray` (NOT the friend's purchased array), and prints each element to the console.
+   // for each item in the user's purchased array, log each item
+   for (let i = 0; i < user.purchased.length; i++) {
+      console.log(user.purchased[i]);
+   }
+
 // - Write a for loop that iterates over the Friend's `purchasedarray`, and prints each element to the console.
 
-
+   for (let i = 0; i < user.friend.purchased.length; i++) {
+      console.log(user.friend.purchased[i]);
+   }
 
 // ### G. Functions can operate on objects
 
